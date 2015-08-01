@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/07/26 23:54:24
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/08/01 2:01:22
 
 BeginCmp
 TimeStamp = /55B349CD;
@@ -246,13 +246,6 @@ IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B4C0B1;
-Reference = IO_USB1;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /55B468D3;
 Reference = P1;
 ValeurCmp = CONN_2;
@@ -365,17 +358,17 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B4F411;
+TimeStamp = /55BA2EB9;
 Reference = R9;
 ValeurCmp = 0;
-IdModule  = SM0603;
+IdModule  = SM0603_Contact;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B4F42A;
+TimeStamp = /55BA2EBF;
 Reference = R10;
 ValeurCmp = 0;
-IdModule  = SM0603;
+IdModule  = SM0603_Contact;
 EndCmp
 
 BeginCmp
@@ -444,6 +437,20 @@ EndCmp
 BeginCmp
 TimeStamp = /55B4F47C;
 Reference = R20;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B763D7;
+Reference = R21;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B763F1;
+Reference = R22;
 ValeurCmp = 0;
 IdModule  = SM0603;
 EndCmp
