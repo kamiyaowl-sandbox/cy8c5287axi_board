@@ -1,11 +1,8 @@
-update=2015/07/25 12:44:10
+update=2015/09/27 18:10:31
 version=1
-last_client=kicad
-[cvpcb]
+last_client=cvpcb
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -45,14 +42,15 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=kamiya_components
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=cy8c5287axi_board.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
 PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadSizeV=1.400000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -65,7 +63,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -82,5 +79,15 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
+LibName17=kamiya_modules
+LibName18=C:/Users/owl/repos/kicad_lib_hastech/conn_xh
+LibName19=C:/Users/owl/repos/kicad_lib_hastech/lpc_1x
+LibName20=C:/Users/owl/repos/kicad_lib_hastech/smd
+LibName21=C:/Users/owl/repos/kicad_lib_hastech/sohgiken
+LibName22=C:/Users/owl/repos/fullcolor_stick/SOT89-5
+LibDir=
+[cvpcb]
 version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
